@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+        <h1><u>SIGNUP</u></h1>
+       <label for="firstname">FIRSTNAME :</label>
+       <input type="text" id="firstname" name="firstname" placeholder="Enter firstname" required><br><br>
+       <label for="secondname">SECONDNAME</label>
+       <input type="text" name="secondname" id="secondname" placeholder="Enter secondname" required><br><br>
+       <label for="password">PASSWORD :</label>
+       <input type="password" id="password" name="password" placeholder="password"><br><br>
+       <label for="number">MOBILE NUMBER :</label>
+       <input type="tel" id="number" name="number" pattern="[0-9]{10}"><br><br>
+       <label for="email">EMAIL :</label>
+       <input type="email" id="email" name="email" ><br><br>
+       <label for="dateofbirth">DOB :</label>
+       <input type="datetime-local" id="dateofbirth"><br><br>
+       <label for="city">CITY :</label>
+       <input type="text" id="city" name="city" value="Hyderabad" disabled><br><br>
+       <label for="url"> Sudmit URL :</label>
+       <input type="url" name="link" id="url"><br><br>
+       <label for="range"> RANGE :</label>
+       <input type="range" name="range" id="range"><br><br>
+       <label for="color">COLOR :</label>
+       <input type="color"  id="color"><br><br>
+       <P><u>Select the fav language :</u></P>
+       <label for="lang1">Html</label>
+       <input type="radio" value="favlang" name="languages" id="lang1"><br>
+       <label for="lang2">Css</label>
+       <input type="radio" value="favlang" name="languages" id="lang2"><br>
+       <label for="lang3">Javascript</label>
+       <input type="radio" value="favlang" name="languages" id="lang3"><br><br>
+       <label >Your qualification :</label>
+       <select >
+        <option value="Degree">Degree</option>
+        <option value="Btech">Btech</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="SSC">SSC</option>
+       </select>
+       <P><u>Select your city: </u></P>
+       <label for="area1">Hyderabad</label>
+       <input type="checkbox" name="area" value="areaname" id="area1"><br>
+       <label for="area2">Nizamabad</label>
+       <input type="checkbox" name="area" value="areaname" id="area2"><br>
+       <label for="area3">Karimnagar</label>
+       <input type="checkbox" name="area" value="areaname" id="area3"><br><br>
+       <label for="doc">FILE :</label>
+       <input type="file" id="doc" name="Document" multiple><br>
+       <h1><u>click on <input type="image" src="./stock-vector-button-finish.jpeg" width="60" height="50"> to submit</u></h1>
+       <input type="reset"><br><br>
+       <input type="submit"><br><br>
+    </fieldset>
+    </form>
+</body>
+</html>
